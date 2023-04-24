@@ -15,9 +15,9 @@ export default function Main() {
           <br></br>
           <div className="py-2">
             <h1 className=" text-gray-700">
-              Junior <span className="text-black">Full Stack</span>{" "}
+              Junior <span className="text-black">Full Stack</span> Software
+              Developer
             </h1>
-            <h1 className=" text-gray-700">Software Developer</h1>
           </div>
           <p className="py-4 max-w-[70%] m-auto">
             Hello! Welcome to my website, which I built using React, Next.js and

@@ -8,7 +8,7 @@ import {
 
 export default function Main() {
   return (
-    <main className="w-full h-screen text-center">
+    <main id="home" className="w-full h-screen text-center">
       <section className="max-w-[1240px] w-full h-full mx-auto p-2 flex flex-col justify-center items-center">
         <div>
           <h1 className="py-4 text-gray-700">Emma Denney</h1>
@@ -26,7 +26,7 @@ export default function Main() {
             working on. Feel free to have a look around!
           </p>
           <nav className="flex items-center justify-between max-w-[330px] m-auto text-black py-4">
-            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer">
+            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer bg-[#f8f8f8]">
               <Link
                 href="https://www.linkedin.com/in/emma-denney-17ab5b46/"
                 target="_blank"
@@ -34,12 +34,12 @@ export default function Main() {
                 <AiFillLinkedin />
               </Link>
             </div>
-            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer">
+            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer bg-[#f8f8f8]">
               <Link href="https://github.com/emmadenney" target="_blank">
                 <AiOutlineGithub />
               </Link>
             </div>
-            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer">
+            <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer bg-[#f8f8f8]">
               <Link href="mailto:emma.denney1@gmail.com" target="_blank">
                 <AiOutlineMail />
               </Link>

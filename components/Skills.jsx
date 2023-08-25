@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <main id="skills" className="w-full lg:h-screen p-4">
+    <main id="skills" className="w-full h-screen my-20 p-4">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <h2>Skills</h2>
-        <section className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-4">
+        <section className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">

@@ -71,26 +71,51 @@ export default function Navbar() {
             <nav className="py-4 flex flex-col">
               <ul>
                 <Link href="/">
-                  <li className="py-4 text-sm">Home</li>
+                  <li
+                    onClick={() => setShowNav(false)}
+                    className="py-4 text-sm"
+                  >
+                    Home
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">About</li>
+                <Link href="/#about">
+                  <li
+                    onClick={() => setShowNav(false)}
+                    className="py-4 text-sm"
+                  >
+                    About
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Skills</li>
+                <Link href="/#skills">
+                  <li
+                    onClick={() => setShowNav(false)}
+                    className="py-4 text-sm"
+                  >
+                    Skills
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Projects</li>
+                <Link href="/#projects">
+                  <li
+                    onClick={() => setShowNav(false)}
+                    className="py-4 text-sm"
+                  >
+                    Projects
+                  </li>
                 </Link>
-                <Link href="/">
-                  <li className="py-4 text-sm">Contact</li>
+                <Link href="/#contact">
+                  <li
+                    onClick={() => setShowNav(false)}
+                    className="py-4 text-sm"
+                  >
+                    Contact
+                  </li>
                 </Link>
               </ul>
               <div className="pt-40">
                 <p className="text-gray-600 tracking-widest text-center">
                   Connect with me
                 </p>
-                <div className="flex items-center justify-between my-4 w-full sm:w-[80%] text-black">
+                <div className="flex items-center justify-evenly my-4 w-full text-black">
                   <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer">
                     <Link
                       href="https://www.linkedin.com/in/emma-denney-17ab5b46/"

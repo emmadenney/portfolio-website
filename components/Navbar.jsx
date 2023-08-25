@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavIcon from "../public/web-developer.png";
 import { useEffect, useState } from "react";
 // import { Gr } from "react-icons";
 import {
@@ -24,12 +25,7 @@ export default function Navbar() {
     <main className="fixed w-full h-20 shadow-xl z-[100]">
       <section className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/web-developer.png"
-            alt="logo"
-            width="50"
-            height="10"
-          />
+          <Image src={NavIcon} alt="logo" width="50" height="10" />
         </Link>
         <ul className="hidden md:flex">
           <Link href="/">

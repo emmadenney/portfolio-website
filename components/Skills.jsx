@@ -1,4 +1,14 @@
 import Image from "next/image";
+import js from "../public/logos/js.png";
+import html from "../public/logos/HTML.png";
+import css from "../public/logos/CSS.svg.png";
+import react from "../public/logos/React.svg.png";
+import next from "../public/logos/nextjs.png";
+import tailwind from "../public/logos/Tailwind.svg.png";
+import sql from "../public/logos/Sql.png";
+import postgresql from "../public/logos/Postgresql.svg.png";
+import node from "../public/logos/nodejs.png";
+import jest from "../public/logos/jest.png";
 
 export default function Skills() {
   return (
@@ -9,12 +19,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/js.png"
-                  alt="Javascript logo"
-                  width="80"
-                  height="80"
-                />
+                <Image src={js} alt="Javascript logo" width="80" height="80" />
                 <p className="text-center pt-2">Javascript</p>
               </div>
             </div>
@@ -22,12 +27,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/HTML.png"
-                  alt="HTML logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={html} alt="HTML logo" width="88" height="88" />
                 <p className="text-center pt-2">HTML</p>
               </div>
             </div>
@@ -35,12 +35,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/CSS.svg.png"
-                  alt="CSS logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={css} alt="CSS logo" width="88" height="88" />
                 <p className="text-center pt-2">CSS</p>
               </div>
             </div>
@@ -48,12 +43,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/React.svg.png"
-                  alt="React logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={react} alt="React logo" width="88" height="88" />
                 <p className="text-center pt-2">React</p>
               </div>
             </div>
@@ -61,12 +51,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/nextjs.png"
-                  alt="Nextjs logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={next} alt="Nextjs logo" width="88" height="88" />
                 <p className="text-center pt-2">Next.js</p>
               </div>
             </div>
@@ -75,7 +60,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/logos/Tailwind.svg.png"
+                  src={tailwind}
                   alt="Tailwind CSS logo"
                   width="88"
                   height="88"
@@ -87,12 +72,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/Sql.png"
-                  alt="SQL logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={sql} alt="SQL logo" width="88" height="88" />
                 <p className="text-center pt-2">SQL</p>
               </div>
             </div>
@@ -101,7 +81,7 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/logos/Postgresql.svg.png"
+                  src={postgresql}
                   alt="PostgreSQL logo"
                   width="88"
                   height="88"
@@ -113,12 +93,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/nodejs.png"
-                  alt="Nodejs logo"
-                  width="130"
-                  height="130"
-                />
+                <Image src={node} alt="Nodejs logo" width="130" height="130" />
                 <p className="text-center pt-2">Node.js</p>
               </div>
             </div>
@@ -126,12 +101,7 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/logos/jest.png"
-                  alt="Jest logo"
-                  width="88"
-                  height="88"
-                />
+                <Image src={jest} alt="Jest logo" width="88" height="88" />
                 <p className="text-center pt-2">Jest</p>
               </div>
             </div>

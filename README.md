@@ -1,6 +1,6 @@
 This is a work in progress Portfolio website project using Nextjs and TailwindCSS.
 
-## Getting Started
+## To view this work in progress site:
 
 First, run the development server:
 

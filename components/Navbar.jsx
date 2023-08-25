@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { GrMenu } from "react-icons/Gr";
+import { Gr } from "react-icons";
+const { GrMenu } = Gr;
 import {
   AiFillLinkedin,
   AiOutlineGithub,

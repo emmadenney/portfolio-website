@@ -34,7 +34,7 @@ export default function About() {
         </div>
         <div className="w-[250px] h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4">
           <Image
-            src="/../public/Profile.png"
+            src={Profile}
             alt="Emma Denney"
             width="250"
             height="250"

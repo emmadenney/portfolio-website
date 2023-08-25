@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Gr } from "react-icons";
-const { GrMenu } = Gr;
+// import { Gr } from "react-icons";
 import {
   AiFillLinkedin,
   AiOutlineGithub,
@@ -49,11 +48,11 @@ export default function Navbar() {
             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
           </Link>
         </ul>
-        <GrMenu
+        {/* <GrMenu
           className="md:hidden cursor-pointer"
           size="25"
           onClick={openNav}
-        />
+        /> */}
       </section>
       {showNav ? (
         <section className="fixed left-0 top-0 w-full h-screen bg-black/70">
